@@ -8,6 +8,47 @@ body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
 }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #007bff; /* Header background */
+    padding: 10px; /* Padding for header */
+    color: white; /* Text color */
+    text-align: center; /* Center align text */
+}
+
+section {
+    padding: 20px; /* Padding for sections */
+    margin: 10px; /* Margin around sections */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 15px; /* Increased padding for mobile */
+    }
+
+    section {
+        padding: 15px; /* Reduced padding for sections on mobile */
+        margin: 5px; /* Less margin for mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 1.2em; /* Smaller font size for mobile */
+    }
+
+    section {
+        padding: 10px; /* Further reduced padding for mobile */
+        margin: 3px; /* Further reduced margin for mobile */
+    }
+}
+
 
 header {
     background-color: #ffffff; /* White background for the header */
