@@ -1,0 +1,440 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ffffff; /* White background for the header */
+    padding: 10px 20px;
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space between logo and nav */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+}
+
+.logo-container {
+    margin-left: 20px; /* Space from the left edge */
+}
+
+.logo {
+    width: 20%; /* Set a small width for the logo */
+    height: 150%; /* Maintain aspect ratio */
+}
+
+nav {
+    margin-right: 20px; /* Space from the right edge */
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list style */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Display links in a row */
+}
+
+nav ul li {
+    margin: 0 15px; /* Space between links */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Text color */
+}
+
+
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    
+}
+
+h1.logo {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    padding-top: 12%;
+    
+}
+
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Default text color */
+    padding: 5px 10px; /* Add padding for better clickable area */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+    border-radius: 4px; /* Rounded corners for the background */
+}
+
+nav ul li a:hover {
+    background-color: #f0f0f0; /* Light grey background on hover */
+    color: #007bff; /* Change text color on hover */
+}
+
+#home {
+    background: url('ign.png') no-repeat center center/cover; padding-right: 24%;padding-top: 5%;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+}
+
+#home h2 {
+    margin-top: 20%;
+    font-size: 50px;
+}
+
+#home p {
+    font-size: 20px;
+}
+
+.cta {
+    display: inline-block;
+    padding: 10px 30px;
+    background: #e8491d;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+#about, #services, #contact {
+    padding: 50px 0;
+    background: #f4f4f4;
+    text-align: center;
+}
+/* About Us Section */
+#about {
+    background: linear-gradient(135deg, #f0f8ff, #e0f7fa);
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+#about h2 {
+    font-size: 36px;
+    color: #03346a;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.about-grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-image {
+    flex: 1;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-image:hover {
+    transform: scale(1.05);
+}
+
+.about-content {
+    flex: 1;
+    padding-left: 40px;
+    text-align: left;
+    animation: fadeInUp 1s ease;
+}
+
+.about-content h3 {
+    font-size: 30px;
+    color: #023770;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.about-content p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+#malayalam-points {
+    background: #e6f7ff; /* Light blue background for the section */
+    padding: 60px 20px; /* Adequate padding */
+    border-radius: 10px; /* Rounded corners */
+    margin: 20px 0; /* Space above and below the section */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
+    text-align: center; /* Center align text */
+}
+
+#malayalam-points h2 {
+    font-size: 2.5em; /* Larger font size for the heading */
+    font-weight: bold; /* Bold heading */
+    margin-bottom: 30px; /* Space below the heading */
+    color: #0d2d4f; /* Main heading color */
+}
+
+.malayalam-points-list {
+    display: flex; /* Flexbox layout */
+    justify-content: center; /* Center align the cards */
+    flex-wrap: wrap; /* Wrap to next line on smaller screens */
+    list-style-type: none; /* Remove default list style */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+.point-item {
+    background: #fff; /* White background for items */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 15px; /* Space between items */
+    padding: 20px; /* Padding inside each point */
+    width: 300px; /* Fixed width for uniformity */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+    position: relative; /* For positioning effects */
+}
+
+.point-item img {
+    max-width: 200px; /* Set max width for icons */
+    margin-bottom: 15px; /* Space below the image */
+}
+
+.point-item h3 {
+    font-size: 1.5em; /* Heading size for each point */
+    color: #333; /* Dark grey text for contrast */
+    margin: 10px 0; /* Space around heading */
+}
+
+.point-item p {
+    font-size: 1.1em; /* Font size for descriptions */
+    color: #666; /* Grey color for descriptions */
+}
+
+/* Hover effect for each item */
+.point-item:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Increased shadow on hover */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Start invisible */
+        transform: translateY(20px); /* Move down for the animation */
+    }
+    to {
+        opacity: 1; /* Fade in to visible */
+        transform: translateY(0); /* Move back to original position */
+    }
+}
+
+/* Animation for each point item */
+.point-item {
+    opacity: 0; /* Start invisible */
+    animation: fadeIn 0.5s forwards; /* Animation effect */
+}
+
+.point-item:nth-child(1) {
+    animation-delay: 0.1s; /* Delay for first item */
+}
+.point-item:nth-child(2) {
+    animation-delay: 0.2s; /* Delay for second item */
+}
+.point-item:nth-child(3) {
+    animation-delay: 0.3s; /* Delay for third item */
+}
+.point-item:nth-child(4) {
+    animation-delay: 0.4s; /* Delay for fourth item */
+}
+
+#expert-teachers {
+    background-color: #f8f9fa; /* Light background for contrast */
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 40px 0;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+#expert-teachers h2 {
+    font-size: 48px; /* Large heading */
+    margin-bottom: 30px;
+    color: #333; /* Dark text for contrast */
+}
+
+.about-icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Space between icon boxes */
+    flex-wrap: wrap; /* Wrap if the screen is too small */
+}
+
+.icon-box {
+    background-color: #007bff; /* Bright blue background for boxes */
+    color: #ffffff; /* White text */
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s; /* Animation on hover */
+    width: 250px; /* Fixed width for uniformity */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.icon-box i {
+    font-size: 40px; /* Size of the icon */
+    margin-bottom: 15px; /* Space between icon and text */
+}
+
+.icon-box:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+
+
+/* Services Section */
+#services {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#services h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.service-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.service-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.3s ease;
+    width: 300px;
+    max-width: 100%;
+}
+
+.service-box:hover {
+    transform: translateY(-10px);
+}
+
+.service-box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.service-box p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.service-box ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.service-box ul li {
+    font-size: 14px;
+    color: #333;
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.service-box ul li::before {
+    content: "\f058";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #007bff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-right: 10px;
+}
+
+.service-icon {
+    font-size: 40px;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons a {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.social-icons .whatsapp {
+    background-color: #25d366;
+}
+
+.social-icons .facebook {
+    background-color: #3b5998;
+}
+
+.social-icons .instagram {
+    background-color: #e1306c;
+}
+
+.social-icons a i {
+    margin-right: 8px;
+}
+
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
